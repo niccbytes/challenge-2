@@ -123,7 +123,7 @@ border-radius: 50%;
 }
 
 footer {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding bottom: 20px;
 }
 
@@ -153,9 +153,9 @@ footer {
 
 #contact {
   display: flex;
-  justify-content: flex-end;
-  height: 90vh;
-  align-items: flex-end;
+  justify-content: center;
+  margin-top: 130px;
+ 
   
 }
 
@@ -166,10 +166,9 @@ footer {
   box-shadow: 0 0 20px 0 #ff004f;
   top: 50%;
   left: 50%;
-
   border-radius: 30px;
-
  font-weight: bolder;
+ margin-bottom: 200px;
 }
 
 ul {
