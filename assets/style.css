@@ -21,6 +21,7 @@ body{
 
 .container {
   padding: 10px 10%;
+  text-align: center;
   
 
 }
@@ -34,7 +35,7 @@ nav {
 
 nav ul li {
   display: inline-block;
-  list-item:none;
+  list-style:none;
   margin: 10px 20px;
 }
 
@@ -72,22 +73,21 @@ border-radius: 50%;
 .header-text {
   margin-top: 20%;
   font-size: 100px;  
-  margin-bottom: 490px;
+  margin-bottom: 100px;
 }
 
 .header-text h1 {
   font-size: 150px;
-  margin-top: 0px;
+
 }
 
 .header-text h1 span{
   font-size: 150px;
-  margin-top: 0px;
   color: rgba(#ff004f);
   border: solid;
   border-width: 10px;
   border-color: #ff004f;
- border-radius: 12px;
+  border-radius: 12px;
   
 }
 
@@ -97,7 +97,7 @@ border-radius: 50%;
 }
 
 .about {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 
@@ -118,6 +118,72 @@ border-radius: 50%;
 
 
 .challenge1 {
-  margin-left: 250px;
-  margin-bottom: 25px;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+footer {
+  margin-bottom: 20px;
+  padding bottom: 20px;
+}
+
+.box1 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  border:solid;
+  height: 200px;
+  width: 300px;
+  border: solid;
+  border-width: 10px;
+  border-color: #ff004f;
+ border-radius: 12px;
+}
+
+.box1:hover{
+  box-shadow: 5px 5px 10px rgb(177, 0, 0);
+  transition: 0.3s;
+}
+.innerabout{
+  padding-left: 100px;
+
+}
+
+#contact {
+  display: flex;
+  justify-content: flex-end;
+  height: 90vh;
+  align-items: flex-end;
+  
+}
+
+.contact-box {
+  width: 500px;
+  height: 200px;
+  background-color: #ff004f;
+  box-shadow: 0 0 20px 0 #ff004f;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-bottom: 900px;
+ font-weight: bolder;
+}
+
+ul {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: #fff;
 }
