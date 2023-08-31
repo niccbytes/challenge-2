@@ -20,4 +20,6 @@ I have created a portfolio website that is interactive and that functions when c
 - show cases my first challenge 1
 - takes you to corrosponding element of the page
 
+## Link to deployed website
+https://niccbytes.github.io/challenge-2/
 
