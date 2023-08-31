@@ -166,11 +166,9 @@ footer {
   box-shadow: 0 0 20px 0 #ff004f;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  margin: 20px;
-  padding: 10px 30px;
+
   border-radius: 30px;
-  margin-bottom: 900px;
+
  font-weight: bolder;
 }
 
@@ -188,4 +186,22 @@ a:visited {
   color: #fff;
 }
 
+@media only screen and (min-width:768){
+
+  .container {
+    padding: 30px;
+    text-align: center;
+    max-width: fit-content;
+  
+  }
+  img h2 {
+    display: flex;
+    flex-shrink: inherit;
+  }
+   h1 span nav {
+    width:100%;
+    display: block;
+    padding-bottom: 30px;
+   }
+}
 
